@@ -235,4 +235,5 @@ async def play(ctx, inputsong):
 #gets toby's token
 keep_alive()
 time.sleep(0.5)
+server.server()
 client.run(os.getenv('TOKEN'))
